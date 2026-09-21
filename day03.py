@@ -55,14 +55,14 @@ g = list(range(1,6))
 h = list({1,2,3,4})
 i = list({1:'a', 2:'b', 3:'c'})
 print(a, type(a)) #<class 'list'>
-print(b) #value
-print(c) #value
-print(d) #value
-print(e) #value
-print(f) #value
-print(g) #value
-print(h) #value
-print(i) #value
+print(b) #<class 'list'>
+print(c) #[1,2,3,4,5]
+print(d) #(1,2,3,4,5)
+print(e) #(1,2,3,4,5)
+print(f) #('manasa')
+print(g) #range(1,6)
+print(h) #{1,2,3,4}
+print(i) #{1:'a', 2:'b', 3:'c'}
 
 #Tuple
 a = (1,2,3,4,5)
@@ -83,24 +83,24 @@ o = tuple({4,5,6})
 p = tuple({1:'a', 2:'b', 3:'c'})
 q = tuple(range(1,6))
 r = tuple('manasa')
-print(a, type(a)) # <class 'tuple'>
-print(b, type(b)) # <class 'tuple'>
-print(c, type(c)) # <class 'tuple'>
-print(d, type(d)) # <class 'float'>
-print(e, type(e)) # <class 'complex'>
-print(f, type(f)) # <class 'int'>
-print(g, type(g)) # <class 'bool'>
-print(h, type(h)) # <class 'tuple'>
-print(i, type(i)) # <class 'tuple'>
-print(j, type(j)) # <class 'tuple'>
+print(a, type(a)) # (1,2,3,4,5) <class 'tuple'>
+print(b, type(b)) # 1,2,3,4 <class 'tuple'>
+print(c, type(c)) # <class 'complex'>
+print(d, type(d)) # (5.6) <class 'float'>
+print(e, type(e)) # (1+3j) <class 'complex'>
+print(f, type(f)) # 1  <class 'int'>
+print(g, type(g)) # (True)  <class 'bool'>
+print(h, type(h)) # (3j) <class 'tuple'>
+print(i, type(i)) # 1, <class 'tuple'>
+print(j, type(j)) # True,<class 'tuple'>
 print(k, type(k)) # <class 'tuple'>
 print(type(l)) # <class 'tuple'>
-print(m) #value
-print(n) #value
-print(o) #value
-print(p) #value
+print(m) #(1,2,3,4,5)
+print(n) #([2,3,4])
+print(o) #({4,5,6})
+print(p) #({1:'a', 2:'b', 3:'c'})
 print(q) #value
-print(r) #value
+print(r) #('manasa')
 
 #Set 
 a = {}
@@ -191,7 +191,7 @@ print(*d) #value
 
 #Slicing
 a = [4,1,2,3,5] 
-print(a[:]) #value
+print(a[:]) #[4,1,2,3,5] 
 print(a[:3]) #value
 print(a[2:]) #value
 print(a[::-1]) #value
