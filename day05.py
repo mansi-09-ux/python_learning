@@ -3,7 +3,7 @@
 # b = a.strip()       
 # c = a.lstrip()
 # d = a.rstrip()
-# print(a, len(a))  
+# print(a, len(a))  #    '   python   '-  
 # print(b, len(b))   
 # print(c, len(c))  
 # print(d, len(d))   
