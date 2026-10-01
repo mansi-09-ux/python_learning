@@ -12,12 +12,12 @@ i = {1,2,3} + {4,5,5}
 j = {1:'a', 2:'b'} + {3:'c', 4:'d'}
 k = [1,2,3] + (1,2,3)
 l = [1,2,3] + 'rak'
-print(a)
-print(b)
-print(c)
-print(d)
-print(e)
-print(f)
+print(a)     #<value>
+print(b)     #<char>
+print(c)     #<bool>
+print(d)     #<value>
+print(e)     #[1,2,3,4,5,6]
+print(f)     #(1,2,3,4,5,6)
 print(g)
 print(h)
 print(i)
@@ -27,13 +27,13 @@ print(l)
 # - : 
 a = 45 - 5.5
 b = 4+5j - 3+2j 
-c = True - False 
+c = True - False
 d = [1,2,3] - [2,3]
 e = (1,2,3) - (2,3)
 f = {1,2,3,4} - {2,1}
 g = {1:'a', 2:'b', 3:'c'} - {2:'b', 3:'c'}
-print(a)
-print(b)
+print(a)  #5
+print(b)  
 print(c)
 print(d)
 print(e)
@@ -70,8 +70,8 @@ print(*m)
 a = 5 ** 2 
 b = 3 ** 2.3
 c = (3+4j) ** (1+2j)
-print(a)
-print(b)
+print(a)   #20
+print(b)   
 print(c)
 # / :
 a = 5 / 2     
