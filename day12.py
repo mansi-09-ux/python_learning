@@ -19,10 +19,8 @@ for i in range(5, 31):
 #5. print numbers divisible by both 5 and 7 from 1 to 100 in one line
 #6. sum of numbers from 10 to 25 
 total = 0
-
 for i in range(10, 26):
     total = total + i
-
 print("Sum =", total)
 #7. sum of numbers in any list
 numbers = [10, 20, 30, 40, 50]
@@ -161,3 +159,7 @@ if total == original:
     print("Armstrong number")
 else:
     print("Not an Armstrong number")
+#WHILE LOOP PROBLEMS
+#basic understanding
+#print 1 to 10 with while loop
+#print even numbers from 1 to 10g
