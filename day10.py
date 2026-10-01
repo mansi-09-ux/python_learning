@@ -1,20 +1,20 @@
 for x in 'manasa':     
-    print(x, end=' ')  
+    print(x, end=' ')     # m a n a s a
 print()
 
 for x in range(2, 7):
-    print(x, end=' ')  
+    print(x, end=' ')     #  2 3 4 5 6
 print()
 for x in [1,2,3]:
-    print(x, end=' ')
-print()
+    print(x, end=' ')     #1 2 3
+print() 
 for x in (4,5,6):
+    print(x, end=' ')     #4 5 6 
+print()
+for x in {7, 8, 9}:       #7 8 9
     print(x, end=' ') 
 print()
-for x in {7, 8, 9}:
-    print(x, end=' ') 
-print()
-d = {1:'a', 2:'b', 3:'c'}
+d = {1:'a', 2:'b', 3:'c'} 
 for x in d:
     print(x, end=' ')  
 print()
@@ -22,7 +22,7 @@ for x in d.keys():
     print(x, end=' ')  
 print()
 for x in d:
-    print(d[x], end=' ') 
+    print(d[x], end=' ')  
 print()
 for x in d.values():   
     print(x, end=' ')
@@ -42,7 +42,7 @@ print()
 #iterate from right to left 
 for x in range(len(list)-1, -1, -1):
     print(list[x], end=' ')           #1 2 3 4 5
-print()
+print
 #iterate from 3rd element 
 #iterate in steps of 2
 
