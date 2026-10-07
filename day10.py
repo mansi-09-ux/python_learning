@@ -30,6 +30,11 @@ print()
 for x in d.items():     
     print(x, end=' ')
 print()
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 6f0ffcd78491d9ed478baac232d98734d30fa6c3
 #index based for loop. 
 #       0 1 2 3 4
 list = [5,4,3,2,1]

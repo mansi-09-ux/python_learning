@@ -24,18 +24,35 @@ for i in range(10, 26):
 print("Sum =", total)
 #7. sum of numbers in any list
 numbers = [10, 20, 30, 40, 50]
+<<<<<<< HEAD
 total = 0
 for i in numbers:
     total = total + i
 print("Sum =", total)
 #8. multiplication table of a number 
 n = int(input("Enter a number: "))
+=======
+
+total = 0
+
+for i in numbers:
+    total = total + i
+
+print("Sum =", total)
+#8. multiplication table of a number 
+n = int(input("Enter a number: "))
+
+>>>>>>> 6f0ffcd78491d9ed478baac232d98734d30fa6c3
 for i in range(1, 11):
     print(n, "x", i, "=", n * i)
 
 #interview problems
 #9. factorial 
 n = int(input("Enter a number"))
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6f0ffcd78491d9ed478baac232d98734d30fa6c3
 factorial = 1
 for i in range(1, n+1):
     factorial = factorial * i
@@ -92,6 +109,7 @@ else:
 #interview problems
 #count digits
 n = int(input("Enter a number: "))
+<<<<<<< HEAD
 count = 0
 while n > 0:
     n = n // 10
@@ -100,34 +118,74 @@ print("Number of digits =", count)
 #reverse a number
 n = int(input("Enter a number: "))
 reverse = 0
+=======
+
+count = 0
+
+while n > 0:
+    n = n // 10
+    count = count + 1
+
+print("Number of digits =", count)
+#reverse a number
+n = int(input("Enter a number: "))
+
+reverse = 0
+
+>>>>>>> 6f0ffcd78491d9ed478baac232d98734d30fa6c3
 while n > 0:
     digit = n % 10
     reverse = reverse * 10 + digit
     n = n // 10
+<<<<<<< HEAD
 print("Reverse =", reverse)
 #palindrome number 
 n = int(input("Enter a number: "))
 original = n
 reverse = 0
+=======
+
+print("Reverse =", reverse)
+#palindrome number 
+n = int(input("Enter a number: "))
+
+original = n
+reverse = 0
+
+>>>>>>> 6f0ffcd78491d9ed478baac232d98734d30fa6c3
 while n > 0:
     digit = n % 10
     reverse = reverse * 10 + digit
     n = n // 10
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6f0ffcd78491d9ed478baac232d98734d30fa6c3
 if original == reverse:
     print("Palindrome number")
 else:
     print("Not a palindrome number")
 #palindrome string (without slicing, built in function)
 text = input("Enter a string: ")
+<<<<<<< HEAD
 reverse = ""
 for ch in text:
     reverse = ch + reverse
+=======
+
+reverse = ""
+
+for ch in text:
+    reverse = ch + reverse
+
+>>>>>>> 6f0ffcd78491d9ed478baac232d98734d30fa6c3
 if text == reverse:
     print("Palindrome string")
 else:
     print("Not a palindrome string")
 #armstrong number
 n = int(input("Enter a number: "))
+<<<<<<< HEAD
 original = n
 digits = len(str(n))
 total = 0
@@ -135,6 +193,18 @@ while n > 0:
     digit = n % 10
     total = total + digit ** digits
     n = n // 1
+=======
+
+original = n
+digits = len(str(n))
+total = 0
+
+while n > 0:
+    digit = n % 10
+    total = total + digit ** digits
+    n = n // 10
+
+>>>>>>> 6f0ffcd78491d9ed478baac232d98734d30fa6c3
 if total == original:
     print("Armstrong number")
 else:
