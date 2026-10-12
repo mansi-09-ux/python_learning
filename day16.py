@@ -1,20 +1,18 @@
-#local, global variable
+# Global variable
 a = 1
 def f1():
-    b = 2
-    print(a)  # Global variable: 1   
-    print(b)  # Local variable: 2
-    print(c)   # Error: c is not defined in f1()
-def f2():
-    c = 2 
+    b = 2  # Local variable
     print(a)  # Global variable: 1
-    print(b)  # Error: b is not defined in f1()
-    print(c)  # Global variable: 1   
+    print(b)  # Local variable: 2
+def f2():
+    c = 3  # Local variable
+    print(a)  # Global variable: 1
+    print(c)  # Local variable: 3
 f1()
 f2()
-print(a)   #1   
-print(b)   # Error: b is not defined globally   
-print(c)   # Error: c is not defined globally 
+print(a)  # Global variable: 1
+# print(b)  # NameError: b is not defined globally
+# print(c)  # NameError: c is not defined globally
 
 #call by value, call by reference
 # call by value 
